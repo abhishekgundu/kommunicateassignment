@@ -1,0 +1,83 @@
+.home {
+  font-style: normal;
+  font-weight: 500;
+  color: #3c4b50;
+  background-color: #ffffff;
+  width: 1475px;
+  height: 777px;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(186.52deg, #6d6bde 5.13%, #5553b7 24.24%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  .logo {
+    padding: 24px;
+    width: 163px;
+    height: 30px;
+  }
+
+  .liveChat {
+    height: 80px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    color: #112222;
+  }
+
+  .chatBox {
+    height: 29px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: #112222;
+  }
+}
+
+.supportText {
+  padding: 10px;
+  font-size: 14px;
+  line-height: 160%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 53px;
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 578px;
+    height: 473px;
+    .loginText,
+    .footerText > ul {
+      font-size: 16px;
+      line-height: 160%;
+      padding-inline-start: 30px;
+    }
+  }
+  .imgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 32px 16px;
+    gap: 16px;
+
+    width: 780px;
+    height: 473px;
+
+    background: linear-gradient(
+      180deg,
+      rgba(109, 107, 222, 0.5) 0%,
+      rgba(109, 107, 222, 0) 100%
+    );
+    border-radius: 16px;
+  }
+}
